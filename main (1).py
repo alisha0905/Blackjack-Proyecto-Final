@@ -57,7 +57,7 @@ for i in range(manos):
         else:
             print("Entrada inválida. Por favor, ingresa 'P' o 'S'.")
 
-print(f"Mano del Crupier: {manodealer}")
+print(f"Mano del Dealer: {manodealer}")
 puntuacion_crupier = calcular_puntuacion(manodealer)
 print(f"Puntuación del Crupier: {puntuacion_crupier}")
 while puntuacion_crupier < 17:
